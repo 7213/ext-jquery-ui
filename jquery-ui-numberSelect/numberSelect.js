@@ -4,7 +4,6 @@
  * @author songzheng
  */
 require('jquery-ui');
-require('lbc-base/js/core/input.js');
 
 var NumberSelect = $.widget('ui.numberSelect', {
     version: "@VERSION",
