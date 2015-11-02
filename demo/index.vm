@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+#html("/static/mod.js")
+#head()
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+##禁用浏览器缓存
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+#require('/vendor/jquery.js')
+<title>Ext-JqueryUI</title>
+#end ## end head
+#body()
+
+#end ## end body
+
+#end ## end html
