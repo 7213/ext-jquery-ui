@@ -24,6 +24,7 @@ fis.config.set('roadmap.path',[
     },
     {
         reg: /^\/demo\/(.*\.vm)$/i,
+        url: '$1',
         release: '/WEB-INF/views/$1',
         isMod: true,
         extras: {

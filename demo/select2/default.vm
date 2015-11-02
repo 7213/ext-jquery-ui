@@ -1,0 +1,6 @@
+#extends('demo/index.vm')
+    #block('content')
+        dsds
+    #end
+    #require('./default.vm')
+#end
