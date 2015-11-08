@@ -1,8 +1,3 @@
-var componentList = [
-    'numberSelect',
-    'select2'
-];
-
 fis.config.set('roadmap.path',[
     {
         reg: 'vendor/mod.js',
@@ -11,7 +6,19 @@ fis.config.set('roadmap.path',[
         release: '/static/mod.js'
     },
     {
+        reg: /^\/core\/(.*\.(js|less|css|swf|png|gif|jpg|jpeg|ico|svg))$/i,
+        release: '/static/vendor/$1',
+        isMod: true,
+        useHash: true
+    },
+    {
         reg: /^\/vendor\/(.*\.(js|less|css|swf|png|gif|jpg|jpeg|ico|svg))$/i,
+        release: '/static/vendor/$1',
+        isMod: true,
+        useHash: true
+    },
+    {
+        reg: /^\/mobile\/(.*\.(js|less|css|swf|png|gif|jpg|jpeg|ico|svg))$/i,
         release: '/static/vendor/$1',
         isMod: true,
         useHash: true
