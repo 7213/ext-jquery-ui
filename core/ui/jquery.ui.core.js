@@ -8,10 +8,7 @@
  *
  * http://api.jqueryui.com/category/ui-core/
  */
-(function( factory ) {
-    module.exports = factory(require('jquery'));
-}(function( $, undefined ) {
-
+var $ = require('../../vendor/jquery');
 var uuid = 0,
 	runiqueId = /^ui-id-\d+$/;
 
@@ -355,4 +352,3 @@ $.extend( $.ui, {
 	}
 });
 
-}));

@@ -1,6 +1,6 @@
 #extends('../index.vm')
 #block('content')
-#require('../../mobile/vmouse.js')
+#require('../../core/vmouse.js')
 <script>
 
 </script>
