@@ -8,7 +8,7 @@
  *
  * http://api.jqueryui.com/category/ui-core/
  */
-var $ = require('../../vendor/jquery');
+var $ = require('jquery');
 var uuid = 0,
 	runiqueId = /^ui-id-\d+$/;
 

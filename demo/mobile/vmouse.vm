@@ -1,9 +1,12 @@
 #extends('../index.vm')
 #block('content')
-#require('../../core/vmouse.js')
-<script>
 
-</script>
+#script()
+    require('../../core/vmouse.js')
+    var $ = require('jquery');
 
+#end
+
+#require('./vmouse.vm')
 #end
 #end

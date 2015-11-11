@@ -9,14 +9,15 @@
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta http-equiv="expires" content="0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Ext-JqueryUI</title>
+<title>Ext-JqueryUI-Base</title>
 #end ## end head
-#script()
-    require('../core/core.js')
-#end
 #body()
 #block('content')
-#end
+#script()
+var $ = require('jquery');
+#end ## end script
+#require('./base.vm')
+#end ## end block content
 #end ## end body
 
 #end ## end html

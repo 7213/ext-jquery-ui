@@ -17,7 +17,8 @@
 //>>description: Normalizes touch/mouse events.
 //>>label: Virtual Mouse (vmouse) Bindings
 //>>group: Core
-var $ = require('../vendor/jquery.js');
+var $ = require('jquery');
+var jQuery = $;
 //>>excludeEnd("jqmBuildExclude");
     (function( $, window, document, undefined ) {
 
