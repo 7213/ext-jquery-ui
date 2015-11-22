@@ -14,20 +14,8 @@ fis.config.set('roadmap.path',[
         release: '/static/mod.js'
     },
     {
-        reg: /^\/core\/(.*\.(js|less|css|swf|png|gif|jpg|jpeg|ico|svg))$/i,
+        reg: /^\/((core|vendor|demo)\/(.*\.(js|less|css|swf|png|gif|jpg|jpeg|ico|svg)))$/i,
         release: '/static/vendor/$1',
-        isMod: true,
-        useHash: true
-    },
-    {
-        reg: /^\/vendor\/(.*\.(js|less|css|swf|png|gif|jpg|jpeg|ico|svg))$/i,
-        release: '/static/vendor/$1',
-        isMod: true,
-        useHash: true
-    },
-    {
-        reg: /^\/demo\/(.*\.(js|less|css|swf|png|gif|jpg|jpeg|ico|svg))$/i,
-        release: '/static/demo/$1',
         isMod: true,
         useHash: true
     },
