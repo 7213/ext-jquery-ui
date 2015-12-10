@@ -5,6 +5,7 @@
  * @require ./pullRefresh.less
  */
 require('jquery-ui');
+IScroll = require('../iscroll/ui.iscroll-lite.js');
 // 上拉
 var DIR_UP = 1;
 // 下拉
