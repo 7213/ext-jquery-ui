@@ -1,2 +1,2 @@
 # ext-jquery-ui
-## 提取jquery和jquery mobile的核心集并且用fis构建
+鎻愬彇jquery鍜宩query mobile鐨勬牳蹇冮泦鎵╁睍涓�浜涚粍浠跺苟涓旂敤fis鏋勫缓
