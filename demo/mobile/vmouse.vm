@@ -1,9 +1,15 @@
 #extends('../index.vm')
 #block('content')
-
+<div style="height:200px;width:200px;background: red;"></div>
 #script()
-    require('../../core/vmouse.js')
     var $ = require('jquery');
+    $(window).on('hashchange', function(e){
+        console.log(e.custom);
+    });
+
+    $(window).on('hashchange', function(e){
+        e.custom = 1
+    });
 
 #end
 

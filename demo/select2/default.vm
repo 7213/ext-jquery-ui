@@ -1,4 +1,4 @@
-#extends('demo/index.vm')
+#extends('..//index.vm')
     #block('content')
         dsds
     #end

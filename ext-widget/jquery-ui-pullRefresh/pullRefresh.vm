@@ -1,0 +1,13 @@
+<div class="scroller-nm-pullRefresh">
+    <div class="pull-down" style="display: none;">
+        <span class="am-icon-arrow-down pull-label">下拉刷新</span>
+        <span class="am-icon-spinner am-icon-spin pull-loading" style="display: none;"></span>
+    </div>
+    <ul class="content">
+
+    </ul>
+    <div class="pull-up" style="display: none;">
+        <span class="am-icon-arrow-up pull-label">上拉加载</span>
+        <span class="am-icon-spinner am-icon-spin pull-loading" style="display: none;"></span>
+    </div>
+</div>
