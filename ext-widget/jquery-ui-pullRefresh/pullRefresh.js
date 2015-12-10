@@ -17,10 +17,8 @@ var PullRefresh = $.widget('ui.numberSelect', {
         // 当前页
         currentPage: 0,
         // 加载数量
-        pageSize: options.pageSize || 5,
+        pageSize: 5,
         dir: DIR_UP,
-        $element: $(element),
-        options: options,
         // 是否正在拖拽
         pulling: false,
         // 第一次加载数据
